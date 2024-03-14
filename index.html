@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Video Embedder</title>
+    <meta name="description" content="Embed YouTube videos easily with this simple tool.">
+    <meta name="keywords" content="YouTube, embed, video, iframe">
+    <meta name="author" content="Brajesh Kumar">
+    <meta name="google-site-verification" content="As8BHkztjB-42ljJNVZmltqMOTdSKd9qv60EsyAN9H4">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V6PY62418Z"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-V6PY62418Z');
+    </script>
+    <!-- GoatCounter -->
+    <script data-goatcounter="https://brajesh3.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="youtube.png" sizes="64x64">
+</head>
+<body>
+    <div class="container">
+        <h1>YouTube Video Embedder</h1>
+        <input type="text" id="youtubeLink" placeholder="Enter YouTube link...">
+        <button onclick="embedContent()">Embed</button>
+        <div id="videoContainer"></div>
+        <div id="iframeContainer"></div>
+        <button id="copyButton" onclick="copyIframeCode()">Copy Iframe Code</button>
+    </div>
+    <footer>
+        <button onclick="location.href='https://brajesh3.github.io/projects/'">My Projects</button>
+        <button onclick="location.href='https://brajesh3.github.io/about/'">About Me</button>
+        <p>Project by Brajesh Kumar</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

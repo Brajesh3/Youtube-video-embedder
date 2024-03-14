@@ -1,0 +1,78 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #000;
+    border-radius: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #ff6f61;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #000;
+    color: #fff;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6f61;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff8a75;
+}
+
+#videoContainer, #iframeContainer {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #000;
+    overflow: hidden;
+}
+
+#videoContainer iframe {
+    width: 100%;
+    height: 60vh; /* Adjust the height as needed */
+}
+
+#copyButton {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer button {
+    background-color: #ff6f61;
+}
+
+footer button:hover {
+    background-color: #ff8a75;
+}
